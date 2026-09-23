@@ -343,7 +343,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 35px 30px;
+    margin-left: 35px;
     gap: 20px;
 }
 
