@@ -1,4 +1,5 @@
 @media (max-width: 1399px) {
+
     .navbar {
         width: calc(100% - 40px);
     }
@@ -7,8 +8,22 @@
         width: 100%;
     }
 
+    .hero-content {
+        height: auto;
+        bottom: 70px;
+        margin: 0 50px;
+    }
+
+    .hero-buttons {
+        margin-top: 25px;
+    }
+
     .logo {
         width: 180px;
+    }
+
+    .nav-menu {
+        margin-left: auto;
     }
 
     .btn-nav {
@@ -19,13 +34,38 @@
         font-size: 12px;
     }
 
+    .get-in-touch {
+        flex-shrink: 0;
+    }
+
     .engineering-cards {
         margin-left: 0;
+    }
+
+    .engineering-card {
+        width: calc((100% - 36px) / 4);
+        flex-shrink: 1;
+    }
+
+    .engineering-header {
+        width: 100%;
+    }
+
+    .engineering-note p {
+        width: 100%;
     }
 
     .products-header {
         width: calc(100% - 40px);
         box-sizing: border-box;
+    }
+
+    .products-intro {
+        box-sizing: border-box;
+    }
+
+    .products-intro p {
+        width: 100%;
     }
 
     .products-grid {
@@ -76,5 +116,14 @@
 
     .solution-content {
         width: 100%;
+    }
+
+    .site-footer {
+        padding: 0 40px;
+    }
+
+    .footer-column,
+    .follow-column {
+        box-sizing: border-box;
     }
 }
