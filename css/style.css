@@ -475,6 +475,11 @@ button {
     gap: 20px;
 }
 
+.cable-image {
+    padding-left: 50px;
+    width: 360px;
+}
+
 .product-title {
     width: 100%;
     height: 35px;
