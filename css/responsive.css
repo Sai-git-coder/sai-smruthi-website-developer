@@ -1,5 +1,4 @@
-@media (max-width: 1279px) {
-
+@media (max-width: 1399px) {
     .navbar {
         width: calc(100% - 40px);
     }
@@ -21,26 +20,17 @@
     }
 
     .engineering-cards {
-        width: 100%;
         margin-left: 0;
-        gap: 12px;
-    }
-
-    .engineering-card {
-        width: calc((100% - 36px) / 4);
-        min-width: 0;
-        flex-shrink: 1;
     }
 
     .products-header {
-        width: 100%;
+        width: calc(100% - 40px);
         box-sizing: border-box;
     }
 
     .products-grid {
-        width: 100%;
-        margin-left: 0;
-        padding: 0 20px;
+        width: calc(100% - 80px);
+        margin: 40px 40px 0;
         box-sizing: border-box;
     }
 
@@ -49,18 +39,13 @@
         min-width: 0;
     }
 
-    .cable-image {
-        width: 90%;
-        height: auto;
-        padding-left: 0;
-    }
-
     .product-image-box {
         width: 100%;
     }
 
     .product-image-box img {
-        max-width: 90%;
+        width: 90%;
+        max-width: 300px;
         height: auto;
         object-fit: contain;
     }
@@ -71,6 +56,25 @@
 
     .product-content h3,
     .product-content p {
+        width: 100%;
+    }
+
+    .cable-image {
+        width: 90% !important;
+        height: auto;
+        padding-left: 0;
+    }
+
+    .card-content h3,
+    .card-content p {
+        width: 100%;
+    }
+
+    .solution-container {
+        width: 100%;
+    }
+
+    .solution-content {
         width: 100%;
     }
 }
